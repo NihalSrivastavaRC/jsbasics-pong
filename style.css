@@ -1,0 +1,25 @@
+canvas {
+    background: #706993;
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f4f4ed;
+}
+
+.btn-container {
+    position: relative;
+    text-align: center;
+    margin: 2rem;
+}
+
+.btn {
+    position: relative;
+    border-radius: 20%;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #17b890;
+    border-color: #082D0F;
+    color: white;
+}

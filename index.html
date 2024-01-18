@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pong</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="myCanvas" width="480" height="320"></canvas>
+
+    <div class="btn-container">
+      <button class="btn" name="play-single" onclick="playSinglePlayer()">Play Single Player</button>
+      <button class="btn" name="play-dual" onclick="playDualPlayer()">Play Dual Player</button>
+      <button class="btn" name="pause" onclick="pause()">Pause</button>
+      <button class="btn" name="reset" onclick="reset()">Reset</button>
+    </div>
+
+    <div>
+        <h3>Controls</h3>
+        <p>
+            To move player X (left side) use w and s. w - up, s - down
+        </p>
+        <p>
+            To Move player Y (Right side) use arrow keys. UpArraw - up, DownArrow - down
+        </p>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
